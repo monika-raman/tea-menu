@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://img.freepik.com/free-vector/doodle-soup-bowl-sticker-vector_53876-173945.jpg') no-repeat;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+}
+
+.content>h1 {
+    padding: 30px;
+    color: brown;
+    font-weight: 600
+}
+
+ul {
+    padding: 20px;
+    list-style: none;
+    width: fit-content;
+    margin: auto;
+    border: 1px solid blue;
+    text-align: left;
+}
+
+ul>li {
+    padding: 5px 10px;
+    border-bottom: 1px solid blue;
+    font-weight: 600;
+    color: brown
+}
+
+ul>li>i {
+    padding-right: 15px;
+    color: blue;
+}
